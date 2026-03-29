@@ -1,0 +1,19 @@
+{
+  "name": "GN1629C",
+  "keywords": "14-Segment, LED, Display",
+  "description": "Allows user to display text strings on 14-segment LED display driven by the GN1629C device.",
+  "url": "N/A",
+  "include": "GN1629C",
+  "authors":
+  [
+    {
+      "name": "Zeph Dulin"
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/zephdulin/GN1629C-LED-Display-for-Arduino"
+  },
+  "frameworks": "arduino"
+}

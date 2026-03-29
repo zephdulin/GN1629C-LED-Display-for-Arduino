@@ -40,13 +40,13 @@ class GN1629C
 	
 	void clearDisplay();							// clear the display buffer in the driver
 	
-	void displayTransfer(int addr, int displayData[]);
-	
-	void cmdTransfer(int);
-  
   private:
 
 	void setFonts();
+	
+	void displayTransfer(int addr, int displayData[]);
+	
+	void cmdTransfer(int);
 	
 	uint8_t CS_PinSet;
 	int numDigitsSet;
